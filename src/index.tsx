@@ -7,11 +7,11 @@ import App from './App';
 const domRoot = document.getElementById('root');
 
 if (domRoot != null) {
-    const root = ReactDOM.createRoot(domRoot);
-    
-    root.render(
-        <ThemeProvider theme={theme}>
-            <App />
-        </ThemeProvider>
-    );
+  const root = ReactDOM.createRoot(domRoot);
+
+  root.render(
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  );
 }

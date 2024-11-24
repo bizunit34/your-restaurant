@@ -3,15 +3,13 @@ import axios from 'axios';
 import {
   Container,
   Typography,
-  AppBar,
-  Toolbar,
-  Button,
   Card,
   CardContent,
   List,
   ListItem,
   ListItemText,
 } from '@mui/material';
+import {HeaderToolbar} from './component';
 
 interface Post {
   id: number;
@@ -30,14 +28,7 @@ const App: React.FC = () => {
 
   return (
     <Container>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            React TypeScript App with Material-UI
-          </Typography>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
-      </AppBar>
+      <HeaderToolbar />
       <Typography variant="h4" gutterBottom sx={{ marginTop: 4 }}>
         Top Posts
       </Typography>
