@@ -9,7 +9,7 @@ import {
   ListItem,
   ListItemText,
 } from '@mui/material';
-import {HeaderToolbar} from './component';
+import { HeaderToolbar } from './component';
 
 interface Post {
   id: number;

@@ -8,7 +8,7 @@ const HeaderToolbar: React.FC = () => {
       <Toolbar>
         <MenuIcon sx={{ marginRight: 2 }} />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          React TypeScript App with Material-UI
+          React TypeScript App with Material-UI Next
         </Typography>
         <Button color="inherit">Login</Button>
       </Toolbar>
@@ -16,4 +16,4 @@ const HeaderToolbar: React.FC = () => {
   );
 };
 
-export {HeaderToolbar};
+export { HeaderToolbar };
